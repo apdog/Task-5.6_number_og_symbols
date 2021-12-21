@@ -10,7 +10,7 @@ public class Main {
             do {
                 System.out.println("Ваше имя должно быть не меньше трех символов и не больше 10.\n Пожалуйста, введите другое имя");
                 name = in.nextLine();
-            } while (name.length() < 3 || name.length() > 10);
+            } while (name.length() < 4 || name.length() > 15);
         }
         System.out.println("Добро пожаловать в наше сообщество," + name);
     }
